@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bookstore Donations App
 
 A React Native app for receiving book donations at a bookstore.
@@ -66,3 +67,6 @@ export const CREDIT_RATES = {
   mmpb_long:  { base: 1.25, label: 'Mass Market PB (Long)' },
 };
 ```
+=======
+# Bookstore-Donations
+>>>>>>> f34b9ca81770588a59165e49b24af5c43bdcbff5
