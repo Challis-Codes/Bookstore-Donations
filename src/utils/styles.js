@@ -1,0 +1,75 @@
+import { StyleSheet } from 'react-native';
+
+export const colors = {
+  bg: '#1a1207',
+  bgCard: '#2d1f0e',
+  bgDark: '#1a1207',
+  border: '#3d2810',
+  borderBrown: '#5a3e1e',
+  gold: '#c4973a',
+  goldLight: '#f5d78e',
+  textPrimary: '#f0e6d0',
+  textMuted: '#b09060',
+  textDim: '#7a5a30',
+  green: '#6fcf60',
+  greenBg: '#1a2d10',
+  greenBorder: '#3d6020',
+  greenText: '#80d060',
+  red: '#ff7070',
+  redBg: '#3d1010',
+  redBorder: '#8b2a2a',
+  redText: '#c06060',
+  amber: '#c4973a',
+  amberBg: '#3d2800',
+  amberBorder: '#8b6020',
+};
+
+export const globalStyles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    backgroundColor: colors.bg,
+  },
+  labelText: {
+    fontSize: 11,
+    letterSpacing: 2,
+    color: colors.gold,
+    textTransform: 'uppercase',
+    marginBottom: 8,
+  },
+  card: {
+    backgroundColor: colors.bgCard,
+    borderRadius: 10,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: colors.border,
+    marginBottom: 12,
+  },
+  sectionTitle: {
+    fontSize: 11,
+    letterSpacing: 3,
+    color: colors.gold,
+    textTransform: 'uppercase',
+    marginBottom: 12,
+  },
+  input: {
+    backgroundColor: colors.bgDark,
+    borderWidth: 1,
+    borderColor: colors.borderBrown,
+    borderRadius: 8,
+    padding: 12,
+    color: colors.textPrimary,
+    fontSize: 15,
+    fontFamily: 'Georgia',
+  },
+  button: {
+    padding: 13,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonText: {
+    fontSize: 14,
+    fontFamily: 'Georgia',
+    fontWeight: 'bold',
+  },
+});
